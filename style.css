@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Idiqlat:wght@200;300;400&display=swap');
+
+* {
+    font-family: 'Idiqlat';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#container, #container2, #container3, #container4 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #111111;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 25px;
+}
+button {
+    background: linear-gradient(135deg, #0056b3, #007bff);
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 8px;
+    box-shadow: 0 4px 6px rgba(0, 86, 179, 0.15);
+    outline: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 640px;
+    height: 50px;
+}
+button:active {
+    transform: scale(0.9);
+}
+button:hover {
+    cursor: pointer;
+}
+#back {
+    padding: 10px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+img {
+    box-shadow: 0 0 3px 3px white;
+    border-radius: 15px;
+    width: 200px;
+}
